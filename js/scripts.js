@@ -72,4 +72,3 @@ function rotateQuote(){
     // Replace 10000 with (the number of seconds you want) * 1000
     t=setTimeout("rotateQuote()",8*1000);
 }
-
