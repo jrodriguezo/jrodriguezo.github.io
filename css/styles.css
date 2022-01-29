@@ -11975,16 +11975,29 @@ body {
   align-items: center;
 }
 
-.intro .technologies {
+.intro ul {
+  list-style-type: none;
   color: #64a19d;
-  font-size: 20px;
+  font-size: 1.1rem;
   margin: 10%;
+}
+
+.intro li{
+  margin: 10%;
+}
+
+.intro li:hover{
+  color: #fff;
+  border: 1px solid;
+  text-align: right;
+  width: 180%;
+  cursor: context-menu;
 }
 
 .intro span {
   margin: 0 auto;
   font-family: monospace;
-  font-size: 30px;
+  font-size: 4rem;
   white-space: nowrap;
   border-right: 4px solid;
   width: 24ch;
